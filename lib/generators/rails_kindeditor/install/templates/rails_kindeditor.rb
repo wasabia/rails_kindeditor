@@ -4,6 +4,9 @@ RailsKindeditor.setup do |config|
   # You can customize it , eg: config.upload_dir = 'this/is/my/folder'
   config.upload_dir = 'uploads'
 
+  #upload storage
+  config.upload_storage = :file
+
   # Allowed file types for upload.
   config.upload_image_ext = %w[gif jpg jpeg png bmp]
   config.upload_flash_ext = %w[swf flv]
